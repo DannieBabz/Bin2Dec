@@ -1,10 +1,15 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
 h1{
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 100px 50px;
 }
 body{
     text-align: center;
+    margin: 15rem;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 input{
@@ -13,11 +18,15 @@ input{
     font-size: 20px;
     border-radius: 10px;
     border: 1px solid chartreuse;
-    
+    font-weight: 800;
 
 }
+#conv {
+    margin-top: 50px;
+
+}
+
 button{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 45px;
     width: 20rem;
     margin-top: 50px;
@@ -27,9 +36,17 @@ button{
     background-color: chartreuse;
     font-size: 25px;
     transition: 1ms;
+    font-weight: 800;
 }
 button:hover{
     background-color: forestgreen;
     color: white;
     transition: 1s;
+}
+button:focus{
+    border: none;
+}
+#error{
+    display: none;
+    height: 30px;
 }
