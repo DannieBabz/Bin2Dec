@@ -51,7 +51,8 @@ button:focus{
     height: 30px;
 }
 footer{
-    margin-top: 25px;
+    margin-top: 50px;
+    text-decoration: none;
 a{
    color: forestgreen;
 }
