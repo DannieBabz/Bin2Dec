@@ -50,9 +50,6 @@ button:focus{
     display: none;
     height: 30px;
 }
-footer{
-   margin: -25px;
-}
 a{
    color: forestgreen;
 }
