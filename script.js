@@ -8,6 +8,7 @@ binInput.addEventListener("keyup", function(e){
     binSplit.forEach((item) => {
         if(item < 0 || item > 1 || item == null || item === NaN){
             error.style.cssText += 'color:red;font-size:15px;display:block;padding-top:10px;'
+            binInput.value == 0;
         } else{
             error.style.cssText += 'color:red;font-size:12px;display:none;'
         }
